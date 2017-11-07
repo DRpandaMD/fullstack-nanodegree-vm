@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# 
+#
 # A buggy web service in need of a database.
 
 from flask import Flask, request, redirect, url_for
@@ -44,20 +44,19 @@ POST = '''\
 
 @app.route('/', methods=['GET'])
 def main():
-  '''Main page of the forum.'''
-  posts = "".join(POST % (date, text) for text, date in get_posts())
-  html = HTML_WRAP % posts
-  return html
+    '''Main page of the forum.'''
+    posts = "".join(POST % (date, text) for text, date in get_posts())
+    html = HTML_WRAP % posts
+    return html
 
 
 @app.route('/', methods=['POST'])
 def post():
-  '''New post submission.'''
-  message = request.form['content']
-  add_post(message)
-  return redirect(url_for('main'))
+    '''New post submission.'''
+    message = request.form['content']
+    add_post(message)
+    return redirect(url_for('main'))
 
 
 if __name__ == '__main__':
-  app.run(host='0.0.0.0', port=8000)
-
+    app.run(host='0.0.0.0', port=8000)
