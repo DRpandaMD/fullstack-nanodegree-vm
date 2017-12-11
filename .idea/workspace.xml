@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="009a00a8-373a-46f7-bc54-44e2a403e044" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/vagrant/log_analysis_project/newsdata.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vagrant/newsdata.sql" afterPath="" />
-    </list>
+    <list default="true" id="009a00a8-373a-46f7-bc54-44e2a403e044" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,12 +121,6 @@
               <item name="fullstack-nanodegree-vm" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullstack-nanodegree-vm" type="462c0819:PsiDirectoryNode" />
               <item name="vagrant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullstack-nanodegree-vm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullstack-nanodegree-vm" type="462c0819:PsiDirectoryNode" />
-              <item name="vagrant" type="462c0819:PsiDirectoryNode" />
-              <item name="log_analysis_project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
