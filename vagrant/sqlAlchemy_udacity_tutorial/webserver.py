@@ -1,4 +1,4 @@
-# webserver.py a webserver writtne in python
+# webserver.py a web server written in python
 # Michael Zarate
 # 13/Dec/2017
 
@@ -25,7 +25,7 @@ class webserverHandler(BaseHTTPRequestHandler):
                           "<a href='/hola'>To hola</a>"
                 output += "<form method='POST' enctype='multipart/form-data' action='/hello'>" \
                           "<h2>What would you like me to say?</h2> <input name='message'" \
-                          "type='text><input type='submit' value='Submit'> </form>"
+                          "type='text'><input type='submit' value='Submit'> </form>"
                 output += "</body></html>"
                 # encode to utf-8 is required for python 3
                 self.wfile.write(output.encode("utf-8"))
@@ -41,7 +41,7 @@ class webserverHandler(BaseHTTPRequestHandler):
                           "<a href='/hello'>Back to Hello</a>"
                 output += "<form method='POST' enctype='multipart/form-data' action='/hello'>" \
                           "<h2>What would you like me to say?</h2> <input name='message'" \
-                          "type='text><input type='submit' value='Submit'> </form>"
+                          "type='text'><input type='submit' value='Submit'> </form>"
                 output += "</body></html>"
                 # encode to utf-8 is required for python 3
                 self.wfile.write(output.encode("utf-8"))
@@ -53,13 +53,18 @@ class webserverHandler(BaseHTTPRequestHandler):
     def do_POST(self):
         try:
             self.send_response(301)
+            self.send_header('Content-type', 'text/html')
             self.end_headers()
+            print("after 301")
 
             # get data from user
-            ctype, pdict = cgi.parse_header(self.headers.getheader('content-type'))
+            ctype, pdict = cgi.parse_header(self.headers.getheader("Content-type"))
+            print("got header")
             if ctype == "multipart/form-data":
                 fields = cgi.parse_multipart(self.rfile, pdict)
                 messagecontent = fields.get('message')
+
+                print("data successfully parsed from user")
 
             output = ""
             output += "<html><body>"
@@ -68,7 +73,7 @@ class webserverHandler(BaseHTTPRequestHandler):
 
             output += "<form method='POST' enctype='multipart/form-data' action='/hello'>" \
                       "<h2>What would you like me to say?</h2> <input name='message'" \
-                      "type='text><input type='submit' value='Submit'> </form>"
+                      "type='text'><input type='submit' value='Submit'> </form>"
             output += "</body></html>"
 
             self.wfile.write(output.encode("utf-8"))
