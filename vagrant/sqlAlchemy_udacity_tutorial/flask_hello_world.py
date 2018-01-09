@@ -18,16 +18,11 @@ session = DBSession()
 @app.route('/hello')
 def HelloWorld():
     restaurant = session.query(Restaurant).first()
-    print(restaurant)
     items = session.query(MenuItem).filter_by(restaurant_id=restaurant.id).all()
-    print(items)
-    output = "test "
+    output = ""
     for i in items:
-        print("iteration")
         output += i.name
         output += "</br>"
-    print(output)
-    print("after return")
     return output
 
 if __name__ == '__main__':

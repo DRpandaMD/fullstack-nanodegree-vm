@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="009a00a8-373a-46f7-bc54-44e2a403e044" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/flask_hello_world.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/flask_hello_world.py" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/flask_hello_world.py" />
+      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/restaurantmenu.db" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/restaurantmenu.db" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,8 +54,8 @@
       <file leaf-file-name="flask_hello_world.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/flask_hello_world.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="30" column="17" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="384">
+              <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="e#33#56#0" expanded="true" />
               </folding>
@@ -512,8 +512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/flask_hello_world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="384">
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="e#33#56#0" expanded="true" />
           </folding>
