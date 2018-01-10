@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="009a00a8-373a-46f7-bc54-44e2a403e044" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/flask_hello_world.py" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/flask_hello_world.py" />
-      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/restaurantmenu.db" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/restaurantmenu.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/menu.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/flask_hello_world.py" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/project.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/crud_examples.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
               <folding>
                 <element signature="e#68#104#0" expanded="true" />
               </folding>
@@ -51,14 +52,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flask_hello_world.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/flask_hello_world.py">
+      <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="406">
+              <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="16" />
               <folding>
-                <element signature="e#33#56#0" expanded="true" />
+                <element signature="e#33#73#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,8 +77,8 @@
       <file leaf-file-name="database_setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/database_setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="364">
+              <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -79,6 +90,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -97,6 +109,9 @@
         <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/webserver.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/flask_hello_world.py" />
+        <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/routeQuiz.py" />
+        <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/project.py" />
+        <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/menu.html" />
       </list>
     </option>
   </component>
@@ -158,6 +173,13 @@
               <item name="vagrant" type="462c0819:PsiDirectoryNode" />
               <item name="sqlAlchemy_udacity_tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fullstack-nanodegree-vm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-nanodegree-vm" type="462c0819:PsiDirectoryNode" />
+              <item name="vagrant" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlAlchemy_udacity_tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -170,6 +192,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -220,7 +243,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fullstack-nanodegree-vm" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/flask_hello_world.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/project.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -434,17 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="96">
-            <caret line="6" column="83" lean-forward="false" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/webserver2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -473,16 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/crud_examples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding>
-            <element signature="e#68#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vagrant/restaurant_webserver/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -502,21 +504,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/crud_examples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding>
+            <element signature="e#68#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/database_setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="364">
+          <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/flask_hello_world.py">
+    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/routeQuiz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="394">
+          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="96">
+            <caret line="6" column="83" lean-forward="false" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="16" />
           <folding>
-            <element signature="e#33#56#0" expanded="true" />
+            <element signature="e#33#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
