@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="009a00a8-373a-46f7-bc54-44e2a403e044" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/deletemenuitem.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/static/styles.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/project.py" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/project.py" />
       <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/restaurantmenu.db" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/restaurantmenu.db" />
+      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/deletemenuitem.html" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/deletemenuitem.html" />
+      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/editmenuitem.html" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/editmenuitem.html" />
+      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/menu.html" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/menu.html" />
+      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/newmenuitem.html" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/newmenuitem.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,20 +60,30 @@
       <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="325">
+              <caret line="68" column="27" lean-forward="false" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
               <folding>
-                <element signature="e#33#101#0" expanded="true" />
+                <element signature="e#33#108#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deletemenuitem.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/static/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deletemenuitem.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/deletemenuitem.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="48">
+              <caret line="3" column="88" lean-forward="false" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -78,8 +92,8 @@
       <file leaf-file-name="editmenuitem.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/editmenuitem.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="48">
+              <caret line="3" column="88" lean-forward="false" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -88,18 +102,18 @@
       <file leaf-file-name="newmenuitem.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/newmenuitem.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="48">
+              <caret line="3" column="88" lean-forward="false" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="menu.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="84" lean-forward="false" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+            <state relative-caret-position="48">
+              <caret line="3" column="88" lean-forward="false" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -141,11 +155,12 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/flask_hello_world.py" />
         <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/routeQuiz.py" />
+        <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/project.py" />
+        <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/static/styles.css" />
+        <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/deletemenuitem.html" />
+        <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/editmenuitem.html" />
         <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/newmenuitem.html" />
         <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/menu.html" />
-        <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/editmenuitem.html" />
-        <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/project.py" />
-        <option value="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/deletemenuitem.html" />
       </list>
     </option>
   </component>
@@ -247,6 +262,10 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.flask_hello_world">
+    <configuration name="styles.css" type="OdpsQLRunnerConfigurationType" factoryName="MaxCompute SQL">
+      <odps_target_file />
+      <odps_output_dir>/var/folders/5c/ws2mb9n92fl919wv48zn7xvm0000gn/T/</odps_output_dir>
+    </configuration>
     <configuration name="database_setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,10 +320,11 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.webserver" />
       <item index="1" class="java.lang.String" itemvalue="Python.flask_hello_world" />
       <item index="2" class="java.lang.String" itemvalue="Python.database_setup" />
+      <item index="3" class="java.lang.String" itemvalue="MaxCompute SQL.styles.css" />
     </list>
     <recent_temporary>
       <list size="3">
@@ -575,44 +595,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/menu.html">
+    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="84" lean-forward="false" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+        <state relative-caret-position="325">
+          <caret line="68" column="27" lean-forward="false" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+          <folding>
+            <element signature="e#33#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/static/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/newmenuitem.html">
+    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/deletemenuitem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="48">
+          <caret line="3" column="88" lean-forward="false" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/editmenuitem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="48">
+          <caret line="3" column="88" lean-forward="false" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/project.py">
+    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/newmenuitem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#101#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="48">
+          <caret line="3" column="88" lean-forward="false" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/deletemenuitem.html">
+    <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="48">
+          <caret line="3" column="88" lean-forward="false" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
           <folding />
         </state>
       </provider>
