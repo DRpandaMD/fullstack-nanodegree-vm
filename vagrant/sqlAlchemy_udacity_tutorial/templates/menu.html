@@ -6,31 +6,33 @@
     <title>Restaurants</title>
 </head>
 <body>
-<h1>{{restaurant.name}}</h1>
-<a href="{{url_for('newMenuItem', restaurant_id = restaurant.id) }}">Create New Item</a>
+    <div class="content">
+    <h1>{{restaurant.name}}</h1>
+    <a href="{{url_for('newMenuItem', restaurant_id = restaurant.id) }}">Create New Item</a>
 
-<!--Block for Flash Messages -->
-    {% with messages = get_flashed_messages() %}
-        {% if messages  %}
-            <ul>
-                {% for message in messages %}
-                <li> <strong>{{ message }}</strong></li>
-                {% endfor %}
-            </ul>
-        {% endif %}
-    {% endwith %}
-<!-- End Block -->
-{% for i in items %}
-    <div>
-        <p>{{i.name}}</p>
-        <p>{{i.description}}</p>
-        <p>{{i.price}}</p>
-        <a href="{{url_for('editMenuItem', restaurant_id = restaurant.id, menu_id = i.id) }}">Edit</a>
-        <br>
-        <a href="{{url_for('deleteMenuItem', restaurant_id = restaurant.id, menu_id = i.id) }}">Delete</a>
-        <br>
+    <!--Block for Flash Messages -->
+        {% with messages = get_flashed_messages() %}
+            {% if messages  %}
+                <ul>
+                    {% for message in messages %}
+                    <li> <strong>{{ message }}</strong></li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+    <!-- End Block -->
+    {% for i in items %}
+        <div>
+            <p>{{i.name}}</p>
+            <p>{{i.description}}</p>
+            <p>{{i.price}}</p>
+            <a href="{{url_for('editMenuItem', restaurant_id = restaurant.id, menu_id = i.id) }}">Edit</a>
+            <br>
+            <a href="{{url_for('deleteMenuItem', restaurant_id = restaurant.id, menu_id = i.id) }}">Delete</a>
+            <br>
 
+        </div>
+    {% endfor %}
     </div>
-{% endfor %}
 </body>
 </html>
