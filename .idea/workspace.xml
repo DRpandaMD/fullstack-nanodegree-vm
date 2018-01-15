@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="009a00a8-373a-46f7-bc54-44e2a403e044" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/static/styles.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/deletemenuitem.html" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/deletemenuitem.html" />
-      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/editmenuitem.html" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/editmenuitem.html" />
-      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/menu.html" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/menu.html" />
-      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/newmenuitem.html" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/templates/newmenuitem.html" />
-      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/webserver2.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/static/styles.css" afterPath="$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/static/styles.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +28,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/static/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1168">
-              <caret line="73" column="1" lean-forward="false" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+            <state relative-caret-position="64">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -187,6 +181,13 @@
               <item name="fullstack-nanodegree-vm" type="462c0819:PsiDirectoryNode" />
               <item name="vagrant" type="462c0819:PsiDirectoryNode" />
               <item name="sqlAlchemy_udacity_tutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-nanodegree-vm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-nanodegree-vm" type="462c0819:PsiDirectoryNode" />
+              <item name="vagrant" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlAlchemy_udacity_tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullstack-nanodegree-vm" type="b2602c69:ProjectViewProjectNode" />
@@ -684,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vagrant/sqlAlchemy_udacity_tutorial/static/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1168">
-          <caret line="73" column="1" lean-forward="false" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        <state relative-caret-position="64">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>

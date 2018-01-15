@@ -1,4 +1,10 @@
-# Styles.css
+.content {
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 5px;
+}
+
 body {
     font-family: sans-serif;
     background-color: #333333
